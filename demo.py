@@ -170,7 +170,7 @@ if __name__ == '__main__':
                        Please, consider c++ demo for the best performance.''')
     parser.add_argument('--checkpoint-path', type=str, default='default_checkpoints/checkpoint_iter_500.pth', help='path to the checkpoint')
     parser.add_argument('--height-size', type=int, default=256, help='network input layer height size')
-    parser.add_argument('--video', type=str, default='./宝宝视频收集/part1/李翔/WeChat_20201010185649.mp4', help='path to video file or camera id')
+    parser.add_argument('--video', type=str, default='0', help='path to video file or camera id')
     parser.add_argument('--images', nargs='+', default='', help='path to input image(s)')
     parser.add_argument('--cpu', type=bool,default= False, help='run network inference on cpu')
     parser.add_argument('--track', type=int, default=1, help='track pose id in video')
